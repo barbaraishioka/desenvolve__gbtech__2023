@@ -99,27 +99,27 @@
     <tbody>
       <tr>
         <td>01</td>
-        <td><a href="01">Barbearia</a></td>
+        <td><a href="#">Barbearia</a></td>
         <td align="center">
-          <a href="01"
+          <a href="/projects/barbearia__alura/index.html"
             ><img width="400px" src="./.github/barbearia__preview.png"
           /></a>
         </td>
       </tr>
       <tr>
         <td>02</td>
-        <td><a href="02">Alurinha</a></td>
+        <td><a href="#">Alurinha</a></td>
         <td align="center">
-          <a href="02"
+          <a href="./projects/alurinha__alura/index.html"
             ><img width="400px" src="./.github/alurinha__preview.png"
           /></a>
         </td>
       </tr>
       <tr>
         <td>02</td>
-        <td><a href="02">Apeperia</a></td>
+        <td><a href="#">Apeperia</a></td>
         <td align="center">
-          <a href="02"
+          <a href="./projects/apeperia__alura/index.html"
             ><img width="400px" src="./.github/apeperia__preview.png"
           /></a>
         </td>
