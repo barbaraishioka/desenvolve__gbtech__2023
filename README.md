@@ -15,7 +15,7 @@
 
 <img
     width="100%"
-    src="https://user-images.githubusercontent.com/85684965/214452640-e2105924-515e-4c3c-b7fe-06a3ef00e1d2.png" />
+    src="./.github/desenvolve__preview.png" />
 
   <p>
     Saiba mais sobre o Desenvolve:
@@ -80,18 +80,52 @@
 
 <span id="projetos"></span>
 
+  <h2>Meus projetos</h2>
+
   <p>
     Esse repositório tem como objetivo documentar minha trajetória durante o
-    programa desenvolve. Segue o link para a lista dos projetos.
+    programa desenvolve.
   </p>
+  <br />
 
-  <h2>
-    <b
-      ><a href="https://github.com/barbaraishioka/desenvolve__gbtech__2023"
-        >Meus Projetos</a
-      ></b
-    >
-  </h2>
+  <table>
+    <thead>
+      <tr>
+        <th align="center">#</th>
+        <th align="center">Projeto</th>
+        <th align="center">Online</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>01</td>
+        <td><a href="01">Barbearia</a></td>
+        <td align="center">
+          <a href="01"
+            ><img width="400px" src="./.github/barbearia__preview.png"
+          /></a>
+        </td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td><a href="02">Alurinha</a></td>
+        <td align="center">
+          <a href="02"
+            ><img width="400px" src="./.github/alurinha__preview.png"
+          /></a>
+        </td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td><a href="02">Apeperia</a></td>
+        <td align="center">
+          <a href="02"
+            ><img width="400px" src="./.github/apeperia__preview.png"
+          /></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
   <br />
 
