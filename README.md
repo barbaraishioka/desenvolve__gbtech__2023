@@ -99,7 +99,7 @@
     <tbody>
       <tr>
         <td>01</td>
-        <td><a href="https://github.com/barbaraishioka/desenvolve__gbtech__2023/blob/main/projects/barbearia__alura/README.md">Barbearia</a></td>
+        <td><a href="./projects/barbearia__alura">Barbearia</a></td>
         <td align="center">
           <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/barbearia__alura"
             ><img width="400px" src="./.github/barbearia__preview.png"
