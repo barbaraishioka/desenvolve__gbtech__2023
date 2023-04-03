@@ -101,7 +101,7 @@
         <td>01</td>
         <td><a href="#">Barbearia</a></td>
         <td align="center">
-          <a href="/projects/barbearia__alura/index.html"
+          <a href="/projects/barbearia__alura/"
             ><img width="400px" src="./.github/barbearia__preview.png"
           /></a>
         </td>
@@ -110,7 +110,7 @@
         <td>02</td>
         <td><a href="#">Alurinha</a></td>
         <td align="center">
-          <a href="./projects/alurinha__alura/index.html"
+          <a href="./projects/alurinha__alura/"
             ><img width="400px" src="./.github/alurinha__preview.png"
           /></a>
         </td>
@@ -119,7 +119,7 @@
         <td>02</td>
         <td><a href="#">Apeperia</a></td>
         <td align="center">
-          <a href="./projects/apeperia__alura/index.html"
+          <a href="./projects/apeperia__alura/"
             ><img width="400px" src="./.github/apeperia__preview.png"
           /></a>
         </td>
