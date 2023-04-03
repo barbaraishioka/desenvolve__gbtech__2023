@@ -1,6 +1,6 @@
 <br>
 <div align="center">
-<h1 id="top">Barbearia Alura</h1>
+<h1 id="top">Apeperia</h1>
 
 <div>
   Página responsiva feita com HTML e CSS para absorver o conteúdo das aulas da plataforma <a href="https://cursos.alura.com.br/">Alura</a>.
