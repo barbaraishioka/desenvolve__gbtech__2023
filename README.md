@@ -99,27 +99,27 @@
     <tbody>
       <tr>
         <td>01</td>
-        <td><a href="#">Barbearia</a></td>
+        <td><a href="https://github.com/barbaraishioka/desenvolve__gbtech__2023/blob/main/projects/barbearia__alura/README.md">Barbearia</a></td>
         <td align="center">
-          <a href="/projects/barbearia__alura/"
+          <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/barbearia__alura"
             ><img width="400px" src="./.github/barbearia__preview.png"
           /></a>
         </td>
       </tr>
       <tr>
         <td>02</td>
-        <td><a href="#">Alurinha</a></td>
+        <td><a href="./projects/alurinha__alura">Alurinha</a></td>
         <td align="center">
-          <a href="./projects/alurinha__alura/"
+          <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/alurinha__alura"
             ><img width="400px" src="./.github/alurinha__preview.png"
           /></a>
         </td>
       </tr>
       <tr>
         <td>02</td>
-        <td><a href="#">Apeperia</a></td>
+        <td><a href="./projects/apeperia__alura">Apeperia</a></td>
         <td align="center">
-          <a href="./projects/apeperia__alura/"
+          <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/apeperia__alura"
             ><img width="400px" src="./.github/apeperia__preview.png"
           /></a>
         </td>

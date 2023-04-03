@@ -19,7 +19,7 @@
 <br>
 
 <p>
-  <img src="../../.github/apeperia__preview.png" width="100%">
+  <img src="../../.github/alurinha__preview.png" width="100%">
 </p>
 </div>
 
@@ -36,7 +36,7 @@
 
 <h2 id="projeto">💻 Projeto</h2>
 
-<p><a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/apeperia__alura">Visite o projeto online</a></p>
+<p><a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/alurinha__alura">Visite o projeto online</a></p>
 
 <h2 id="licenca">📝 Licença</h2>
 

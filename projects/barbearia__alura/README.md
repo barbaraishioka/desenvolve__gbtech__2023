@@ -36,7 +36,7 @@
 
 <h2 id="projeto">💻 Projeto</h2>
 
-<p><a href="#">Visite o projeto online</a></p>
+<p><a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/barbearia__alura">Visite o projeto online</a></p>
 
 <h2 id="licenca">📝 Licença</h2>
 
