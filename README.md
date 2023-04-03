@@ -102,7 +102,7 @@
         <td><a href="./projects/barbearia__alura">Barbearia</a></td>
         <td align="center">
           <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/barbearia__alura"
-            ><img width="400px" src="./.github/barbearia__preview.png"
+            ><img width="300px" src="./.github/barbearia__preview.png"
           /></a>
         </td>
       </tr>
@@ -111,16 +111,16 @@
         <td><a href="./projects/alurinha__alura">Alurinha</a></td>
         <td align="center">
           <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/alurinha__alura"
-            ><img width="400px" src="./.github/alurinha__preview.png"
+            ><img width="300px" src="./.github/alurinha__preview.png"
           /></a>
         </td>
       </tr>
       <tr>
-        <td>02</td>
+        <td>03</td>
         <td><a href="./projects/apeperia__alura">Apeperia</a></td>
         <td align="center">
           <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/apeperia__alura"
-            ><img width="400px" src="./.github/apeperia__preview.png"
+            ><img width="300px" src="./.github/apeperia__preview.png"
           /></a>
         </td>
       </tr>
