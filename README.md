@@ -124,6 +124,15 @@
           /></a>
         </td>
       </tr>
+      <tr>
+        <td>04</td>
+        <td><a href="./projects/monitoria__01">Monitoria 01</a></td>
+        <td align="center">
+          <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/monitoria__01"
+            ><img width="400px" src="./.github/monitoria__01__preview.png"
+          /></a>
+        </td>
+      </tr>
     </tbody>
   </table>
 
