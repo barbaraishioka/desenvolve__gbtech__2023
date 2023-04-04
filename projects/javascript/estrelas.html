@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estrelas</title>
+  </head>
+  <body>
+    <script>
+      function pulaLinha() {
+        document.write("<br>");
+      }
+
+      function mostra(frase) {
+        document.write(frase);
+      }
+
+      for (let linha = 1; linha <= 3; linha++) {
+        for (let coluna = 1; coluna <= 10; coluna++) {
+          mostra("*");
+        }
+        pulaLinha();
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo de Adivinhação com Chances</title>
+  </head>
+  <body>
+    <script>
+      function pulaLinha() {
+        document.write("<br><br>");
+      }
+
+      function mostra(frase) {
+        document.write("<h1>" + frase + "</h1>");
+        pulaLinha();
+      }
+
+      let tentativas = 1;
+
+      while (tentativas <= 3) {
+        let numeroAleatorio = Math.round(Math.random() * (10 - 1) + 1);
+        let chute = parseInt(prompt("Digite seu chute!"));
+        if (chute >= 1 && chute <= 10) {
+          if (numeroAleatorio == chute) {
+            mostra("Você acertou!!! Parabéns!!!");
+            break;
+          } else {
+            mostra(
+              "Você errou!!! O número correto era " +
+                numeroAleatorio +
+                ", tente novamente!",
+            );
+          }
+        } else {
+          mostra("Por favor, insira um número de 1 a 10!!!");
+        }
+        tentativas++;
+      }
+
+      // SOLUÇÃO DO PROFESSOR //
+      // let numeroPensado = Math.round(Math.random() * 10);
+      // let tentativa = 1;
+      // while (tentativas <= 3) {
+      //   let chute = parseInt(prompt("Digite seu chute!"));
+      //   if (chute == numeroPensado) {
+      //     mostra("Você ACERTOU, o número pensado era " + numeroPensado);
+      //     break;
+      //   } else {
+      //     mostra("Você ERROU!");
+      //   }
+      //   tentativa++;
+      // }
+      // mostra("FIM");
+    </script>
+  </body>
+</html>

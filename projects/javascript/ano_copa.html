@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anos das copas do mundo</title>
+  </head>
+  <body>
+    <script>
+      function pulaLinha() {
+        document.write("<br><br>");
+      }
+
+      function mostra(frase) {
+        document.write("<h1>" + frase + "</h1>");
+        pulaLinha();
+      }
+
+      let anoAtual = new Date().getFullYear(); // ano atual
+      let anoCopa = 1930; // inicio
+      while (anoCopa < anoAtual) {
+        alert("Teve copa em " + anoCopa);
+        anoCopa = anoCopa + 4;
+        // enquanto a variável anoCopa for menor que a variável anoAtual, some 4 no anoCopa e mostre os anos que tiveram copas.
+      }
+    </script>
+  </body>
+</html>
