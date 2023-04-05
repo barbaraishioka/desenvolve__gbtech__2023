@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adivinha Mais</title>
+    <title>Adivinha Mais com Array</title>
   </head>
 
   <body>
@@ -12,7 +12,7 @@
     <button>Compare com o meu segredo</button>
 
     <script>
-      let segredo = Math.round(Math.random() * (10 - 1) + 1);
+      let segredos = [5, 7, 10, 2];
       let input = document.querySelector("input");
       let button = document.querySelector("button");
 
@@ -22,11 +22,18 @@
 
       input.focus();
 
+      let achou = false;
+
       function verifica() {
-        if (input.value == segredo) {
-          mostra("Você acertou, o número é " + segredo);
-        } else {
-          mostra("Você errou, o número correto é " + segredo);
+        for (let posicao = 0; posicao < segredos.length; posicao++) {
+          if (input.value == segredos[posicao]) {
+            mostra("Você acertou, o número é " + segredos[posicao]);
+            achou = true;
+            break;
+          }
+        }
+        if (achou == false) {
+          alert("Você errou!");
         }
         window.location.reload();
       }
