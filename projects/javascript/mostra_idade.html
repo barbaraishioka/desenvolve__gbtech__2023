@@ -1,26 +1,16 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mostra Idade</title>
-  </head>
-  <body>
-    <script>
-      function pulaLinha() {
-        document.write("<br><hr><br>");
-      }
+<meta charset="UTF-8" />
+<script>
+  function pulaLinha() {
+    document.write("<br><hr><br>");
+  }
 
-      function mostra(frase) {
-        document.write("<big>" + frase + "</big>");
-        pulaLinha();
-      }
+  function mostra(frase) {
+    document.write("<big>" + frase + "</big>");
+    pulaLinha();
+  }
 
-      let ano = 2019;
-      mostra("Eu nasci em: " + (ano - 25));
-      mostra("Adriano nasceu em: " + (ano - 26));
-      mostra("Paulo nasceu em: " + (ano - 32));
-    </script>
-  </body>
-</html>
+  var ano = 2019;
+  mostra("Eu nasci em : " + (ano - 25));
+  mostra("Adriano nasceu em : " + (ano - 26));
+  mostra("Paulo nasceu em : " + (ano - 32));
+</script>

@@ -1,28 +1,33 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculadora de IMC</title>
-  </head>
-  <body>
-    <script>
-      function pulaLinha() {
-        document.write("<br><br>");
-      }
+<meta charset="UTF-8" />
 
-      function mostra(frase) {
-        document.write(frase);
-        pulaLinha();
-      }
+<script>
+  function pulaLinha() {
+    document.write("<br><br>");
+  }
 
-      function calculaImc(peso, altura) {
-        let imc = peso / (altura * altura);
-        mostra("O resultado do cálculo IMC é: " + imc.toFixed(1));
-      }
+  function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+  }
 
-      calculaImc(73, 1.71);
-    </script>
-  </body>
-</html>
+  // let pesoFlavio = 73;
+  // let alturaFlavio = 1.71;
+
+  // let imcFlavio = Math.round(pesoFlavio / (alturaFlavio * alturaFlavio));
+
+  // mostra("O imc do Flávio é " + imcFlavio);
+
+  // let pesoAmigo = 68;
+  // let alturaAmigo = 1.71;
+
+  // let imcAmigo = Math.round(pesoAmigo / (alturaAmigo * alturaAmigo));
+
+  // mostra("O imc do amigo é " + imcAmigo);
+
+  function calculaImc(peso, altura) {
+    let imc = Math.round(peso / (altura * altura));
+    mostra("O imc calculado é " + imc);
+  }
+
+  calculaImc(73, 1.71);
+</script>
