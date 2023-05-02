@@ -1,19 +1,21 @@
 <canvas width="600" height="400"></canvas>
-
+<br />
+Escolha uma cor <input type="color" />
 <script>
-  var tela = document.querySelector("canvas");
-  var pincel = tela.getContext("2d");
+  let tela = document.querySelector("canvas");
+  let pincel = tela.getContext("2d");
+  let paleta = document.querySelector("input");
 
   pincel.fillStyle = "grey";
   pincel.fillRect(0, 0, 600, 400);
 
-  var desenha = false;
+  let desenha = false;
 
   tela.onmousemove = function (evento) {
     if (desenha) {
-      var x = evento.pageX - tela.offsetLeft;
-      var y = evento.pageY - tela.offsetTop;
-      pincel.fillStyle = "blue";
+      let x = evento.pageX - tela.offsetLeft;
+      let y = evento.pageY - tela.offsetTop;
+      pincel.fillStyle = paleta.value;
       pincel.beginPath();
       pincel.arc(x, y, 10, 0, 2 * 3.14);
       pincel.fill();
