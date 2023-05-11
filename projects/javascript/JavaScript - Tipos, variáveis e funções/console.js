@@ -1,3 +1,5 @@
+// console.log()
+
 // log -> registro
 
 const minhaVar = true;
@@ -6,6 +8,8 @@ const minhaVar = true;
 // console.log("eu sou um texto")
 // console.log(minhaVar)
 
-// tratamento de erro!
+// _______________________________ //
+
+// Tratamento de erro!
 
 console.error("deu erro!");

@@ -1,26 +1,26 @@
-// let x = "";
-// console.log(x);
-// x = "oi";
-
 // DECLARAÇÃO DE FUNÇÃO
 
-// 1) declara a função
-//2 -> valor de soma()
+// Sem função:
+
+// let x = "aaa";
+// console.log(x); // aaa
+// x = "oi";
+// console.log(x); // oi
+
+// Utilizando funções:
+
 function imprimeTexto(texto) {
   console.log(texto);
 }
 
-// 2) executa a função (1 ou + vezes)
-
-imprimeTexto(soma());
-// imprimeTexto("outro texto");
-
-// três formas de escrever funções
+imprimeTexto("Estou utilizando uma função que imprime um texto");
 
 function soma() {
-  //outros códigos
-  //vários console.log()
   return 2 + 2;
 }
 
-// console.log(soma())
+console.log(soma()); // 4
+
+// Função dentro da outra:
+
+imprimeTexto(soma()); // 4

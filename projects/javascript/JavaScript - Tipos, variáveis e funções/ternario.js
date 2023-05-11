@@ -7,5 +7,5 @@ if (idadeCliente >= idadeMinima) {
   console.log("suco");
 }
 
-//condição                    //true     //false
+//__________________________ condição      //true    //false
 console.log(idadeCliente >= idadeMinima ? "cerveja" : "suco");
