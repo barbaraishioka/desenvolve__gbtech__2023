@@ -12,6 +12,8 @@ console.log(`Média da sala JavaScript ${mediaSala(salaJS)}`);
 console.log(`Média da sala Java ${mediaSala(salaJava)}`);
 console.log(`Média da sala Python ${mediaSala(salaPython)}`);
 
+// ____________________________________ //
+
 const notas = [10, 6.5, 8, 7];
 
 const media = notas.reduce((acum, atual) => atual + acum, 0) / notas.length;
