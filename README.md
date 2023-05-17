@@ -144,7 +144,7 @@
       </tr>
       <tr>
         <td>06</td>
-        <td><a href="./projects/midi__alura/README.md">Alura FONE</a></td>
+        <td><a href="./projects/telefone__alura/README.md">Alura FONE</a></td>
         <td align="center">
           <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/telefone__alura"
             ><img width="400px" src="./.github/alurafone__preview.png"
