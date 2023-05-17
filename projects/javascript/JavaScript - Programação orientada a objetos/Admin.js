@@ -1,8 +1,19 @@
 import User from "./User.js";
 
-class Admin extends User {
-  constructor(nome, email, nascimento, role = "admin", ativo = true) {
-    super(nome, email, nascimento, role, ativo);
+export default class Admin extends User {
+  constructor(
+    nome,
+    sobrenome,
+    email,
+    nascimento,
+    role = "admin",
+    ativo = true,
+  ) {
+    super(nome, sobrenome, email, nascimento, role, ativo);
+  }
+
+  exibirInfos() {
+    return `${this.nome}, ${this.role}, ${this.ativo}`;
   }
 
   criarCurso(nomeDoCurso, vagas) {
@@ -10,19 +21,13 @@ class Admin extends User {
   }
 }
 
-const novoAdmin = new Admin("Rodrigo", "r@r.com", "2021-01-01");
+const novoAdmin = new Admin("Rodrigo", "Pacheco", "r@r.com", "2021-01-01");
 
-// console.log(novoAdmin.criarCurso("JS", 20));
+console.log(novoAdmin.criarCurso("JS", 20));
 //Curso de JS criado com 20 vagas
 
-// console.log(novoAdmin);
-// Admin {
-//   nome: 'Rodrigo',
-//   email: 'r@r.com',
-//   nascimento: '2021-01-01',
-//   role: 'admin',
-//   ativo: true
-// }
+console.log(novoAdmin);
+// Admin {}
 
-// console.log(novoAdmin.exibirInfos());
-// Rodrigo, r@r.com
+console.log(novoAdmin.exibirInfos());
+// Rodrigo Pacheco, admin, true
