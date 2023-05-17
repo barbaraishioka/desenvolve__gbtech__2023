@@ -99,7 +99,7 @@
     <tbody>
       <tr>
         <td>01</td>
-        <td><a href="./projects/barbearia__alura">Barbearia</a></td>
+        <td><a href="./projects/barbearia__alura/README.md">Barbearia</a></td>
         <td align="center">
           <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/barbearia__alura"
             ><img width="400px" src="./.github/barbearia__preview.png"
@@ -108,16 +108,16 @@
       </tr>
       <tr>
         <td>02</td>
-        <td><a href="./projects/alurinha__alura">Alurinha</a></td>
+        <td><a href="./projects/alurinha__alura/README.md">Alurinha</a></td>
         <td align="center">
-          <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/alurinha__alura"
+          <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/alurinha__alura/"
             ><img width="400px" src="./.github/alurinha__preview.png"
           /></a>
         </td>
       </tr>
       <tr>
         <td>03</td>
-        <td><a href="./projects/apeperia__alura">Apeperia</a></td>
+        <td><a href="./projects/apeperia__alura/README.md">Apeperia</a></td>
         <td align="center">
           <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/apeperia__alura"
             ><img width="400px" src="./.github/apeperia__preview.png"
@@ -126,13 +126,31 @@
       </tr>
       <tr>
         <td>04</td>
-        <td><a href="./projects/monitoria__01">Monitoria 01</a></td>
+        <td><a href="./projects/monitoria__01/README.md">Monitoria 01</a></td>
         <td align="center">
           <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/monitoria__01"
             ><img width="400px" src="./.github/monitoria__01__preview.png"
           /></a>
         </td>
       </tr>
+      <tr>
+        <td>05</td>
+        <td><a href="./projects/midi__alura/README.md">Alura MIDI</a></td>
+        <td align="center">
+          <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/midi__alura"
+            ><img width="400px" src="./.github/midi__preview.png"
+          /></a>
+        </td>
+      </tr>
+      <tr>
+        <td>06</td>
+        <td><a href="./projects/midi__alura/README.md">Alura FONE</a></td>
+        <td align="center">
+          <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/telefone__alura"
+            ><img width="400px" src="./.github/alurafone__preview.png"
+          /></a>
+        </td>
+      </tr>          
     </tbody>
   </table>
 
