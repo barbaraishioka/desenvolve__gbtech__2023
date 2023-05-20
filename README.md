@@ -150,7 +150,16 @@
             ><img width="400px" src="./.github/alurafone__preview.png"
           /></a>
         </td>
-      </tr>          
+      </tr>
+      <tr>
+        <td>07</td>
+        <td><a href="./projects/robotron__2000/README.md">Robotron 2000</a></td>
+        <td align="center">
+          <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/robotron__2000"
+            ><img width="400px" src="./.github/robotron__preview.png"
+          /></a>
+        </td>
+      </tr>              
     </tbody>
   </table>
 
