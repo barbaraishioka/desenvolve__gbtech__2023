@@ -37,7 +37,7 @@
 
 <h2 id="projeto">💻 Projeto</h2>
 
-<p><a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/petshop__doguito/cadastro.html">Visite o projeto online</a></p>
+<p><a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/petshop__doguito">Visite o projeto online</a></p>
 
 <h2 id="licenca">📝 Licença</h2>
 
