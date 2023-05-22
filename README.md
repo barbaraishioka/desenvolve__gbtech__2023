@@ -164,7 +164,7 @@
         <td>08</td>
         <td><a href="./projects/petshop__doguito/README.md">Pet Shop Doguito</a></td>
         <td align="center">
-          <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/petshop__doguito"
+          <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/petshop__doguito/cadastro.html"
             ><img width="400px" src="./.github/petshop__doguito__preview.png"
           /></a>
         </td>
