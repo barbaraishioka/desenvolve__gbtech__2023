@@ -1,4 +1,7 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+
 .cadastro {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
