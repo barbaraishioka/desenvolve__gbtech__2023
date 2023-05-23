@@ -168,7 +168,16 @@
             ><img width="400px" src="./.github/petshop__doguito__preview.png"
           /></a>
         </td>
-      </tr>                        
+      </tr>
+      <tr>
+        <td>09</td>
+        <td><a href="./projects/books__alura/README.md">Books Alura</a></td>
+        <td align="center">
+          <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/books__alura"
+            ><img width="400px" src="./.github/books__preview.png"
+          /></a>
+        </td>
+      </tr>                                   
     </tbody>
   </table>
 

@@ -3,7 +3,7 @@
 <h1 id="top">Alura FONE</h1>
 
 <div>
-  Teclado de um Telefone <a href="https://cursos.alura.com.br/">Alura</a>.
+  Manipulando DOM - Teclado de um Telefone <a href="https://cursos.alura.com.br/">Alura</a>.
 </div>
 
 <p>

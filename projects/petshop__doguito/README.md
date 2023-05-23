@@ -3,7 +3,7 @@
 <h1 id="top">Pet Shop Doguito</h1>
 
 <div>
-  Formulário de cadastro <a href="https://cursos.alura.com.br/">Alura</a>.
+  Autenticação de formulário de cadastro<a href="https://cursos.alura.com.br/">Alura</a>.
 </div>
 
 <p>

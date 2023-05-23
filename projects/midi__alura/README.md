@@ -3,7 +3,7 @@
 <h1 id="top">Alura MIDI</h1>
 
 <div>
-  Player de sons de instrumentos <a href="https://cursos.alura.com.br/">Alura</a>.
+  Manipulando DOM - Player de sons de instrumentos <a href="https://cursos.alura.com.br/">Alura</a>.
 </div>
 
 <p>

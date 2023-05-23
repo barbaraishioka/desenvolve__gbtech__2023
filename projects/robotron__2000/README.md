@@ -3,7 +3,7 @@
 <h1 id="top">Robotron 2000</h1>
 
 <div>
-  Montagem de robôs <a href="https://cursos.alura.com.br/">Alura</a>.
+  Manipulando DOM com data-attributes - Montagem de robôs <a href="https://cursos.alura.com.br/">Alura</a>.
 </div>
 
 <p>
