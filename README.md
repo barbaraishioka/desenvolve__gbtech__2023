@@ -162,7 +162,7 @@
       </tr>
       <tr>
         <td>08</td>
-        <td><a href="./projects/petshop__doguito/README.md">Pet Shop Doguito</a></td>
+        <td><a href="./projects/petshop__doguito/README.md">PetShop Doguito</a></td>
         <td align="center">
           <a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/petshop__doguito/cadastro.html"
             ><img width="400px" src="./.github/petshop__doguito__preview.png"
@@ -177,7 +177,16 @@
             ><img width="400px" src="./.github/books__preview.png"
           /></a>
         </td>
-      </tr>                                   
+      </tr>
+      <tr>
+        <td>10</td>
+        <td><a href="./projects/petshop__crud/admin/README.md">PetShop Doguito CRUD</a></td>
+        <td align="center">
+          <a href="./projects/petshop__crud/admin/README.md"
+            ><img width="400px" src="./.github/petshop__crud__preview.png"
+          /></a>
+        </td>
+      </tr>                                           
     </tbody>
   </table>
 
