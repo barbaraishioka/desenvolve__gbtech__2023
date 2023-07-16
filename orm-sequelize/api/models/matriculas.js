@@ -1,21 +1,19 @@
 "use strict";
-const { Model } = require("sequelize");
 module.exports = (sequelize, DataTypes) => {
-  class Matriculas extends Model {
-    static associate(models) {
-      Matriculas.belongsTo(models.Pessoas, { foreignKey: "estudante_id" });
-      Matriculas.belongsTo(models.Turmas, { foreignKey: "turma_id" });
-    }
-  }
-  Matriculas.init(
+  const Matriculas = sequelize.define(
+    "Matriculas",
     {
       status: DataTypes.STRING,
     },
-    {
-      sequelize,
-      modelName: "Matriculas",
-      paranoid: true,
-    },
+    { paranoid: true },
   );
+  Matriculas.associate = function (models) {
+    Matriculas.belongsTo(models.Pessoas, {
+      foreignKey: "estudante_id",
+    });
+    Matriculas.belongsTo(models.Turmas, {
+      foreignKey: "turma_id",
+    });
+  };
   return Matriculas;
 };
