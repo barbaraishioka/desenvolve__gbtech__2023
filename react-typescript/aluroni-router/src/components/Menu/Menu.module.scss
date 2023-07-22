@@ -1,0 +1,35 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
+
+.menu {
+  display: flex;
+  padding: 20px $padding-horizontal;
+  @media (max-width: $desktop_xsm) {
+    padding: 20px $padding-horizontal-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 20px $padding-horizontal-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 20px $padding-horizontal-md;
+  }
+  &__list {
+    align-items: center;
+    display: flex;
+  }
+  &__link {
+    list-style-type: none;
+    padding: 0 20px;
+    a {
+      color: $dark;
+      cursor: pointer;
+      font-size: 24px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: .2s ease;
+      &:hover {
+        color: $dark-grey;
+      }
+    }
+  }
+}
